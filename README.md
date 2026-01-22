@@ -31,8 +31,8 @@ Ensure the following dependencies are installed:
 ```
 -------
 # 📦 Data&Code Availability
-Due to the large size of the datasets (over 20 GB, including PDB files and processed graph binaries), we provide all structural and preprocessed data via Quark Cloud Storage instead of GitHub or Git LFS.
-You can download the complete dataset and preprocessing files from the following link: 👉 https://pan.quark.cn/s/e7d24f49047f
+Due to the large size of the datasets (over 20 GB, including PDB files and processed graph binaries), all structural and preprocessed data have been deposited in Zenodo, a long-term open-access repository.
+You can download the complete dataset and preprocessing files from the following link: https://zenodo.org/records/18326108. DOI: 10.5281/zenodo.18326108
 
 # 🗂  Datasets
 CMMSCL-DPI supports the following datasets:
@@ -81,5 +81,6 @@ python compound_graph.py
 python train_cl2RWR_class.py
 
 -------
+
 
 
